@@ -50,7 +50,7 @@ Please make sure to exclude node_modules by using a .gitignore file.
 
 ## Resources
 
-[Using branches and making a pull request](https://vimeo.com/725676411/fabede2ebb)
-[Installing Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/download/#package-managers)
-[Customising Bootstrap](https://getbootstrap.com/docs/5.2/customize/overview/)
-[Excluding node_modules using .gitignore](https://sebhastian.com/git-ignore-node_modules/)
+- [Using branches and making a pull request](https://vimeo.com/725676411/fabede2ebb)
+- [Installing Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/download/#package-managers)
+- [Customising Bootstrap](https://getbootstrap.com/docs/5.2/customize/overview/)
+- [Excluding node_modules using .gitignore](https://sebhastian.com/git-ignore-node_modules/)
