@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* Bootstrap  edited styles*/
+h2, .h2 {
+  color: currentColor;
+}
+
 /* Bootstrap default styles */
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
