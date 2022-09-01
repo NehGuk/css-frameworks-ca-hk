@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/dist/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-record-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/profile.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login.html">Login</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+<!-- CREATE NEW POST -->
+<div class="container px-4 py-5">
+    <h1 class="pb-2 ">What's up?</h1> 
+    
+    <div class="card">
+        <!-- <h5 class="card-header">Share your thoughts</h5> -->
+        <div class="card-body">
+
+            <form class="was-validated">
+
+              <div class="mb-3">
+                <label for="validationTextarea" class="form-label"></label>
+                <input class="form-control" id="validationTextarea" placeholder="Title" required></input>
+                <div class="invalid-feedback">
+                  <!-- Please enter a message in the textarea. -->
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="validationTextarea" class="form-label"></label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Write your post here..." required></textarea>
+                <div class="invalid-feedback">
+                  <!-- Please enter a message in the textarea. -->
+                </div>
+              </div>
+              
+                <!-- <div class="mb-3">
+                  <input type="file" class="form-control" aria-label="file example" required>
+                  <div class="invalid-feedback">Example invalid form file feedback</div>
+                </div> -->
+              
+                <div class="mb-3">
+                  <button class="btn btn-primary" type="submit" disabled>Post</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>      
+
+<!-- LATEST POSTS -->
+    <div class="container px-4 py-5">
+
+      <h2 class="text-center">Latest posts</h2>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+            
+        <div class="col">
+          <div class="card h-100">
+            <img src="/assets/post-covers/post-cover-sample-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">My new favourite book</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+                <img src="/assets/profile-pictures/tapir.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                <small class="text-muted">Juca Pato | </small>
+                <small class="text-muted">September 1, 2022</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+              <img src="/assets/post-covers/post-cover-sample-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">A new frontier in microbiology</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                  <img src="/assets/profile-pictures/zoya.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  <small class="text-muted">Jacob Yung-Chang | </small>
+                  <small class="text-muted">August 29, 2022</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/assets/post-covers/post-cover-sample-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">My favourite city in Ireland</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                  <img src="/assets/profile-pictures/canvas.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  <small class="text-muted">Zazo Firondo | </small>
+                  <small class="text-muted">August 18, 2022</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/assets/post-covers/post-cover-sample-4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">My new tin-whistle book</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                  <img src="/assets/profile-pictures/tapir.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  <small class="text-muted">Juca Pato | </small>
+                  <small class="text-muted">August 9, 2022</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/assets/post-covers/post-cover-sample-6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lessons from my last trip</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                  <img src="/assets/profile-pictures/tapir.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  <small class="text-muted">Juca Pato | </small>
+                  <small class="text-muted">August 3, 2022</small>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  
+<!-- FOOTER -->
+    <div class="container">
+        <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="/profile.html" class="nav-link px-2 text-muted">Profile</a></li>
+            <li class="nav-item"><a href="/login.html" class="nav-link px-2 text-muted">Login</a></li>
+        </ul>
+        <p class="text-center text-muted">Henri Kugler | CSS Frameworks Course Assignment | 2022</p>
+        </footer>
+    </div>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
