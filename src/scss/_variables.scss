@@ -1,18 +1,36 @@
+$primary: green;
 
-/* Background */
-$white:    rgba(153, 153, 153, 0.2) ;
-$red: green;
-$blue: green;
+$font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-/* Accent colour */
-$green:   #149b0d;
+
+/* Background colour */
+$white: rgb(241, 241, 241);
 
 /* Typography */
-h2 {
+$headings-margin-bottom: 1em;
+
+h1 {
     color: currentColor;
+
 }
+
+h2 {
+    color: rgb(103, 103, 103);
+}
+
+
+.card-title {
+        font-size: 1.5em;
+        color: rgb(103, 103, 103);
+        padding-bottom: .7em;
+}
+
 
 p {
-    /* display: none; */
+    color: rgb(51, 51, 51);
 }
 
+
+/* Form fields */
+
+$red: #d1d1d1;

@@ -39,20 +39,29 @@
 
 <!-- CREATE NEW POST -->
 <div class="container px-4 py-5">
-    <h1 class="pb-2 border-bottom">What's up?</h1> 
+    <h1 class="pb-2 ">What's up?</h1> 
     
     <div class="card">
         <!-- <h5 class="card-header">Share your thoughts</h5> -->
         <div class="card-body">
 
             <form class="was-validated">
-                <div class="mb-3">
-                  <label for="validationTextarea" class="form-label"></label>
-                  <textarea class="form-control" id="validationTextarea" placeholder="Share your thoughts here..." required></textarea>
-                  <div class="invalid-feedback">
-                    <!-- Please enter a message in the textarea. -->
-                  </div>
+
+              <div class="mb-3">
+                <label for="validationTextarea" class="form-label"></label>
+                <input class="form-control" id="validationTextarea" placeholder="Title" required></input>
+                <div class="invalid-feedback">
+                  <!-- Please enter a message in the textarea. -->
                 </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="validationTextarea" class="form-label"></label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Write your post here..." required></textarea>
+                <div class="invalid-feedback">
+                  <!-- Please enter a message in the textarea. -->
+                </div>
+              </div>
               
                 <!-- <div class="mb-3">
                   <input type="file" class="form-control" aria-label="file example" required>
@@ -67,92 +76,89 @@
     </div>
 </div>      
 
-<!-- POSTS -->
+<!-- LATEST POSTS -->
     <div class="container px-4 py-5">
 
-        <!-- LATEST POSTS -->
+      <h2 class="text-center">Latest posts</h2>
 
-        <h2 class="text-center">Latest posts</h2>
-
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
             
-            <div class="col">
-              <div class="card h-100">
-                <img src="/assets/post-covers/nathan-dumlao-YSzuRTO5WFY-unsplash.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Post title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <img src="/assets/profile-pictures/tapir.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                    <small class="text-muted">Juca Pato | </small>
-                    <small class="text-muted">Date</small>
-                </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/assets/post-covers/post-cover-sample-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">My new favourite book</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+                <img src="/assets/profile-pictures/tapir.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                <small class="text-muted">Juca Pato | </small>
+                <small class="text-muted">September 1, 2022</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+              <img src="/assets/post-covers/post-cover-sample-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">A new frontier in microbiology</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                  <img src="/assets/profile-pictures/zoya.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  <small class="text-muted">Jacob Yung-Chang | </small>
+                  <small class="text-muted">August 29, 2022</small>
               </div>
             </div>
-
-            <div class="col">
-                <div class="card h-100">
-                  <img src="/assets/post-covers/thao-le-hoang-jc9UD4JQFRQ-unsplash.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                  <div class="card-footer">
-                      <img src="/assets/profile-pictures/zoya.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      <small class="text-muted">Jacob Yung-Chang | </small>
-                      <small class="text-muted">Date</small>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card h-100">
-                  <img src="/assets/post-covers/thao-le-hoang-uGbG4LnMFMY-unsplash.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                  <div class="card-footer">
-                      <img src="/assets/profile-pictures/canvas.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      <small class="text-muted">Zazo Firondo | </small>
-                      <small class="text-muted">Date</small>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card h-100">
-                  <img src="/assets/post-covers/thao-le-hoang-v4zceVZ5HK8-unsplash.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                  <div class="card-footer">
-                      <img src="/assets/profile-pictures/tapir.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      <small class="text-muted">Juca Pato | </small>
-                      <small class="text-muted">Date</small>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card h-100">
-                  <img src="/assets/post-covers/thao-le-hoang-yYSY93clr4w-unsplash.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                  <div class="card-footer">
-                      <img src="/assets/profile-pictures/tapir.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      <small class="text-muted">Juca Pato | </small>
-                      <small class="text-muted">Date</small>
-                  </div>
-                </div>
-              </div>
-
           </div>
-      
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/assets/post-covers/post-cover-sample-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">My favourite city in Ireland</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                  <img src="/assets/profile-pictures/canvas.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  <small class="text-muted">Zazo Firondo | </small>
+                  <small class="text-muted">August 18, 2022</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/assets/post-covers/post-cover-sample-4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">My new tin-whistle book</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                  <img src="/assets/profile-pictures/tapir.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  <small class="text-muted">Juca Pato | </small>
+                  <small class="text-muted">August 9, 2022</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/assets/post-covers/post-cover-sample-6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lessons from my last trip</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                  <img src="/assets/profile-pictures/tapir.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  <small class="text-muted">Juca Pato | </small>
+                  <small class="text-muted">August 3, 2022</small>
+              </div>
+            </div>
+          </div>
+
+      </div>
     </div>
   
 <!-- FOOTER -->
