@@ -26,7 +26,7 @@ Submission for this project will follow the pattern used in professional develop
 
 ## Process
 
-1. Create a design or wireframe for each page
+1. Create a design or wireframe for each page OK
 2. Create a new public repository on GitHub OK
 3. Create a new project folder for this repository OK
 4. Create a new git branch for this project OK
