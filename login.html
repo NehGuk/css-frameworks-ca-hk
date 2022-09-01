@@ -48,8 +48,8 @@
                 <label for="floatingInput">Email address</label>
                 </div>
                 <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
-                <label for="floatingPassword">Password</label>
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required>
+                <label class="was-validated" for="floatingPassword">Password</label>
                 </div>
             
                 <div class="checkbox mb-3">
