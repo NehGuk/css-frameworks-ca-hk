@@ -1,7 +1,5 @@
 # CSS-Frameworks | Course assignment
 
-![image](./assets/screenshot-gingaiki.jpg)
-
 ![image](/assets/home-screenshot.png)
 
 ## Goal
