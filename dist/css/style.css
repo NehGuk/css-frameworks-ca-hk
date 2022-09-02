@@ -3,6 +3,12 @@
 /* BREAKPOINTS */
 /* Form fields */
 /* $red: #d1d1d1; */
+/* PROFILE IMAGE */
+.text-center .rounded-circle {
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
 /* TYPOGRAPHY */
 body {
   font-family: "Roboto", sans-serif;
