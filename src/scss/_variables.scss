@@ -1,32 +1,13 @@
 
-/* COLOUR PALETTE */
-
-$primary: rgb(6, 128, 6);
-$danger: rgb(185, 185, 185);
-
-/* Background colour */
-$white: rgb(242, 242, 242);
-
-/* TYPOGRAPHY */
-$headings-margin-bottom: 1em;
-
-h1 {
-    color: currentColor;
-}
-
-h2 {
-    color: rgb(103, 103, 103);
-}
-
-.card-title {
-    font-size: 1.5em;
-    color: rgb(103, 103, 103);
-    padding-bottom: .7em;
-}
-
-p {
-    color: rgb(51, 51, 51);
-}
+/* BREAKPOINTS */
+$grid-breakpoints: (
+  xs: 0,
+  sm: 574px,
+  md: 766px,
+  lg: 990px,
+  xl: 1200px,
+  xxl: 1400px
+);
 
 /* Form fields */
 
