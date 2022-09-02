@@ -38,23 +38,23 @@
       </nav>
 <!-- CONTENT -->
 
-      <div class="container px-4 py-5">
+      <div class="container px-4 py-5 col-lg-4 col-sm-12 text-center">
         <h1 class="text-center">Login</h1>
   
         <div class="form-signin">
             <form action="/profile.html">
                 <div class="form-floating">
                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-                <label for="floatingInput">Email address</label>
+                <label for="floatingInput">Email</label>
                 </div>
                 <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" minlength="8" pattern="^.(?=.{7,})(?=.[a-zA-Z]).*$" required>
+                <input type="password" class="form-control my-3" id="floatingPassword" placeholder="Password" minlength="8" pattern="^.(?=.{7,})(?=.[a-zA-Z]).*$" required>
                 <label class="was-validated" for="floatingPassword">Password</label>
                 </div>
             
                 <div class="checkbox mb-3">
                 <label>
-                    <input type="checkbox" value="remember-me"> Remember me
+                    <input type="checkbox" value="remember-me" class="my-3"> Remember me
                 </label>
                 </div>
                 <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
