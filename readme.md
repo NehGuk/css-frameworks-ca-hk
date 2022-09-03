@@ -4,7 +4,7 @@
 
 ## Instructions
 
-To use the project run these command first:
+To use the project run these commands first:
 
 `npm install`
 `npm run build`
