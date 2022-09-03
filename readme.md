@@ -4,12 +4,12 @@
 
 ## Instructions
 
-To use the project run these command first
+To use the project run these command first:
 
 `npm install`
 `npm run build`
 
-And to use Live Server run the comman
+And to use Live Server run the command:
 
 `npm run watch`
 
